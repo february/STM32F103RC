@@ -51,7 +51,7 @@ srec: build
 list: build
 images: build
 
-build: lib examples
+build: lib firmware
 
 lib:
 	$(Q)if [ ! "`ls -A $(OPENCM3_DIR)`" ] ; then \
